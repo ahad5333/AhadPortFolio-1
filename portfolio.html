@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ahad's ProfileFolio</title>
+    <link rel="shortcut icon" href="icons8-a-67.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -165,22 +167,105 @@
         button:hover{
             opacity: 0.7;
         }
+        #line{
+            display: flex;
+            border: 2px white;
+            box-shadow: 2px 5px 5px black;
+            gap: 4px;
+            
+        }
+        #search{
+            font-weight: bold;
+            font-family: serif;
+            
+        }
+        #search:hover{
+            background-color: rgb(54, 121, 54);
+            color: white;
+        }
+        .social {
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            top: 20%;
+            
+
+
+        }
+        .social a i:hover{
+            font-size: 40px;
+            transition: 0.3s;
+           
+            
+            
+            
+        }
+        .left > i{
+            color: white;
+            margin-right: 5px;
+
+        }
+        .hobbies_heading{
+            margin: 40px;
+        }
+        .section_3{
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+            align-items: center;
+            font-size:15px ;
+            
+        }
+        .section_3  img{
+            width: 500px;
+            height: 400px;
+            border: 2px solid white;
+            box-shadow: 5px 5px 10px white;
+            margin-bottom: 20px;
+            margin-left: 100px;
+            
+        }
+        .section_4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 20px;
+            margin: 20px;
+
+        }
+        
+        .section_4 img{
+            margin:50px;
+            width: 100vh;
+        }
+        
+
     </style>
 </head>
 
 <body>
     <nav>
         <div class="left">
-            <img src="https://o.remove.bg/downloads/69455412-5acf-4a6c-bdca-94675bfff5f1/abstract-colorful-bird_621127-276-removebg-preview.png"
-                alt="">
+            <i class="fa-solid fa-address-card"></i>
             ahad's portfolio
         </div>
         <div class="right">
             <ul>
                 <li><a href="">Home</a> </li>
-                <li><a href="">Courses</a></li>
-                <li><a href="">Docs</a> </li>
+                <li><a href="">About</a></li>
+                <li><a href="login.html"> Login</a></li>
+                <li><a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/HTML_Complete_Notes.pdf">HTML Docs</a> </li>
+                <li><a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/CSS_Complete_Notes.pdf">CSS notes</a> </li>
+                <li><a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/JS_Chapterwise_Notes.pdf">Javascript notes</a> </li>
                 <li><a href="">Contact me</a></li>
+                <li>
+                    <form id="line" action="https://www.google.com/search" method="GET">
+                        <input name="q" type="text" placeholder="Search on Google....">
+                        <input type="submit" value="search" name="" id="search">
+                    </form>
+                </li>
+               
 
 
             </ul>
@@ -188,6 +273,11 @@
     </nav>
     <main>
         <section class="firstsection">
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
             <div class="leftsection">
                 Hi, My name is <span class="purple-text">Ahad
                 </span>
@@ -207,6 +297,7 @@
                 <img src="bg.png.png" alt="">
 
             </div>
+            
 
 
         </section>
@@ -247,6 +338,36 @@
                 </p>
             </div>
         </section>
+        <hr>
+        
+
+        <section class="section_3">
+            
+            
+            
+
+            <div class="hobbies">
+                <img src="webdesign.avif" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, commodi qui nostrum laudantium obcaecati fugit impedit cum eius tempor id repellat dolorum a voluptatum? Tempora officia perferendis ab libero id inventore omnis praesentium nesciunt architecto, ea maiores. Laudantium beatae excepturi eligendi laborum, asperiores recusandae dignissimos nulla sit culpa vero quibusdam est odio incidunt fugiat tenetur eaque assumenda voluptas similique quod debitis sunt ut? Accusantium qui consequatur quo magnam, quibusdam ullam earum sequi nostrum quasi quae quidem facilis debitis, deserunt voluptatem nam numquam recusandae maxime non, corporis eos dolorem fugit mollitia. Repellat, autem esse. Debitis maxime ut aspernatur, voluptate molestiae aliquid veritatis magni optio mollitia quis doloribus cum aperiam quam reprehenderit unde nisi saepe quas eligendi doloremque. Minima, at perspiciatis dignissimos eum voluptatem sed suscipit totam natus non. Quo libero minus accusantium aut explicabo dignissimos iure illum amet, ipsam delectus nulla deleniti molestias dolores eius eaque, beatae ullam quas doloribus. Soluta ea at totam repellat dicta dolores repudiandae laboriosam quos possimus illo iure explicabo neque, pariatur odit. Voluptates asperiores reprehenderit fuga mollitia. Sequi asperiores aut molestiae blanditiis aperiam, repellendus minima magni nobis necessitatibus quo, at praesentium quos quam recusandae! Minus soluta cupiditate autem!</p>
+            </div>
+        </section>
+        <hr>
+
+        <section class="section_4">
+            <div>
+                <img src="cover.jpg" alt="">
+            </div>
+            <div>
+                <q>
+                    If we want users to like our software, we should design it to behave like a likable person. – ...
+                </q>
+            </div>
+           
+        </section>
+        <hr>
+
         <footer>
             <div class="foot">
                 <p>© 2023 Mohammed ahadullah. All rights reserved.
