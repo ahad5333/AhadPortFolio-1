@@ -1,2 +1,2 @@
 # ahadportfolio
-Created a profileportfolio by using html, css and javascript
+Created a profileportfolio initial days of learning web development.
